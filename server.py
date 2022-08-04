@@ -7,7 +7,7 @@ os.system("cls" if os.name == 'nt' else "clear")
 time = datetime.now()
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-    host = "192.168.43.112"
+    host = "your local ip"
     #host = socket.gethostname()
     port = 5678
     s.bind((host, port))
